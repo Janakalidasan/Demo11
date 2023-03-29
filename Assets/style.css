@@ -39,7 +39,7 @@
     background-color:rgba(182, 135, 87, 1) ;
      padding-left: 20px;
       padding-right: 20px;
-    margin-top: 10px;
+    
     
 }#su-1:hover {
     font-size: 14px;
@@ -47,8 +47,24 @@
     background-color:rgba(182, 135, 87, 1) ;
      padding-left: 20px;
       padding-right: 20px;
-    margin-top: 10px;
+   
     margin-left: 10px;
+}#su-0 {
+    font-size: 14px;
+    color: white;
+    background-color:rgba(182, 135, 87, 1) ;
+     padding-left: 20px;
+      padding-right: 20px;
+   
+    
+}#su-0:hover {
+    font-size: 14px;
+    color:rgba(182, 135, 87, 1);
+    border: 1px solid rgba(182, 135, 87, 1);
+    background-color: transparent;
+     padding-left: 20px;
+      padding-right: 20px;
+    
 }
 #su-1 {
     font-size: 14px;
@@ -56,8 +72,29 @@
     border: 1px solid rgba(182, 135, 87, 1);
      padding-left: 20px;
       padding-right: 20px;
-    margin-top: 10px;
+    
     margin-left: 10px;
+}.navbar-bg {
+    min-height: 55px !important;
+    background-color:transparent;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.navbar-bg2 {
+    background-color: grey;
+    transition: all .2s ease-in-out;
+    animation: smoothScroll 1s forwards;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+@keyframes smoothScroll {
+    0% {
+        transform: translateY(-50px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
 }
 /*footer*/
 .atb {
@@ -80,14 +117,139 @@
     width: 35px;
 
     margin-left: 5px;
+}/*platform*/
+.rect {
+    background-image: url('../Assets/img/Rectangle 166.png');
+    height: 377px;
+    width: 100%;
+    margin-top: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img {
+    position: relative;
+    text-align: center;
+
+}
+
+.centered {
+    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  padding-top: 10%;
+    color: white;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.para {
+
+   
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  
+    color: white;
+    font-size: 17px;
+
+
+}.title {
+    color:rgba(182, 135, 87, 1) ;
+    font-size: 35px;
+}
+
+.title-2 {
+    color: rgba(182, 135, 87, 1);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.paragrap-1 {
+    color:black;
+  
+    font-size: 14px;
+}
+.title-3 {
+    color:white ;
+    font-size: 35px;
+}
+
+.title-4 {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.paragrap-2 {
+    color:white;
+  
+    font-size: 14px;
+}
+
+#laptop {
+    margin-top: 80px;
+
+}
+
+.laptop {
+    width: 532px;
+
+    margin-top: 100px;
+
+    margin-bottom: 100px;
+}
+
+.learn {
+    color: white;
+
+    border-radius: 5px;
+    font-size: 18px;
+    font: sans-serif;
+    font-weight: 400;
+
+}
+
+.platform {
+
+    border-radius: 5px;
+    font-size: 18px;
+    font: sans-serif;
+    font-weight: 400;
+    background-color: hsl(212deg 22% 13%);
+}
+
+.laptop-group {
+    width: 594px;
+    margin-bottom: 40px;
+}#merun{
+    background-image: linear-gradient(140deg,rgba(99, 63, 29, 1),rgba(142, 101, 59, 1),rgba(168, 123, 76, 1));
+height: 580px;
 }
 @media (max-width:540px){
     .size {
         width: 35px;
-    
-        margin-left: 0px;
+      margin-left: 0px;
     }
-
+    .navbar-bg {
+        min-height: 55px !important;
+        background-color:grey;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    }
+    
+    .navbar-bg2 {
+        background-color: grey;
+        transition: all .2s ease-in-out;
+        animation: smoothScroll 1s forwards;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    }
+    /*pltaform*/
+    #merun{
+        background-image: linear-gradient(140deg,rgba(99, 63, 29, 1),rgba(142, 101, 59, 1),rgba(168, 123, 76, 1));
+    height: auto;
+    }
 }
 @media (min-width:1500px) and (max-width:1890px){
 
