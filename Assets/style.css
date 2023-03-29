@@ -343,11 +343,22 @@ height: 580px;
 
 .rmore-1 {
     margin-left: 50px;
-    color: hsl(215deg 85% 51%);
+    color: rgba(182, 135, 87, 1) ;
+    font-weight: bold;
+    margin-top: 90px;
+}
+.rmore-2 {
+    margin-left: 50px;
+    color: rgba(182, 135, 87, 1) ;
+    font-weight: bold;
+    margin-top: 75px;
+}
+.rmore-3 {
+    margin-left: 50px;
+    color: rgba(182, 135, 87, 1) ;
     font-weight: bold;
     margin-top: 50px;
 }
-
 @media (max-width:540px){
     .size {
         width: 35px;
