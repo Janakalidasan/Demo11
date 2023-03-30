@@ -604,7 +604,7 @@ height: 580px;
         color: rgba(171, 124, 78, 1) !important;
     }.lat{
         width: 450px;
-        margin-left: 99.2%;
+        margin-left: 64.6%;
     }
     .full{
         color: black;
@@ -994,6 +994,9 @@ height: 580px;
             color: hsl(236deg 64% 96%);
             margin-left: 50px;
             line-height: 17px;
+        }.lat {
+            width: 450px;
+            margin-left: 3.6%;
         }
     
 }
@@ -1023,5 +1026,8 @@ height: 580px;
             color: hsl(236deg 64% 96%);
             margin-left: 50px;
             line-height: 17px;
+        }.lat{
+            width: 450px;
+            margin-left: 71.8%;
         }
 }
