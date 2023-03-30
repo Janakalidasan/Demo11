@@ -829,7 +829,54 @@ height: 580px;
     }#pen-4{
         background-color: rgba(171, 124, 78, 1);
     }#meru{
-        b
+        background-image: linear-gradient(90deg,rgba(130, 87, 43, 1),rgba(171, 125, 76, 1),rgba(129, 86, 43, 1));
+        height: 350px;
+    }#men-tw{
+        width: 80%;
+        margin-top: 15px;
+    }.copy-1 {
+        text-align: start;
+        color: hsl(0deg 0% 100%);
+        margin-left: 50px;
+       margin-top: 50px !important;
+        font-size: 40px;
+    }
+    
+    .join-1 {
+        text-align: start;
+        font-size: 15px;
+        color: hsl(236deg 64% 96%);
+        margin-left: 50px;
+        line-height: 17px;
+    }.grp {
+        margin-top: 50px;
+        width: 460px;
+    
+        margin-bottom: 50px;
+    }
+    
+    .broker {
+        text-align: start;
+        color: rgba(171, 124, 78, 1);
+        margin-top: 50px;
+        font-weight:bolder;
+    }
+    
+    #vro {
+        margin-top: 50px;
+    }
+    
+    .bro {
+        text-align: start;
+        color: black;
+        font-size: 15px;
+    }
+    
+    .arrow {
+        text-align: start;
+    
+        font-size: 10px;
+        color: hsl(39deg 54% 52%)
     }
     @media (max-width:540px){
     .size {
@@ -938,7 +985,17 @@ height: 580px;
         margin-top: -100px;
     }#jem{
         padding-top: 20px !important;
-    }
+    }#meru{
+        background-image: linear-gradient(90deg,rgba(130, 87, 43, 1),rgba(171, 125, 76, 1),rgba(129, 86, 43, 1));
+        height: auto;}
+        .join-1 {
+            text-align: start;
+            font-size: 13px;
+            color: hsl(236deg 64% 96%);
+            margin-left: 50px;
+            line-height: 17px;
+        }
+    
 }
 @media (min-width:1500px) and (max-width:1890px){
     .csc{
@@ -957,5 +1014,14 @@ height: 580px;
         font-weight: bolder;
         font-size: 25px;
         color: rgba(171, 124, 78, 1) !important;
-    }
+    }#meru{
+        background-image: linear-gradient(90deg,rgba(130, 87, 43, 1),rgba(171, 125, 76, 1),rgba(129, 86, 43, 1));
+        height: auto;}
+        .join-1 {
+            text-align: start;
+            font-size: 17px;
+            color: hsl(236deg 64% 96%);
+            margin-left: 50px;
+            line-height: 17px;
+        }
 }
