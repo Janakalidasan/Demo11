@@ -76,7 +76,7 @@
     margin-left: 10px;
 }.navbar-bg {
     min-height: 55px !important;
-    background-color:transparent;
+    background-color:white;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
@@ -269,17 +269,14 @@ height: 580px;
     padding-top: 70px;
 }
 .csc{
-   background-image: linear-gradient(180deg,rgba(175, 107, 46, 1),rgba(105, 67, 31, 1));
-    border-radius: 50%;
-    width: 30%;
-    padding: 10px 10px 10px 10px;
-    margin-left: 35%;
+   width: 35%;
+ margin-left: 32%;
     margin-top: -15%;
 }
-#top {
-    width: 50px;
-    height: 50px;
-}
+/* #top {
+    width: 70px;
+    height: 70px;
+} */
 
 .card-1 {
     background-image: linear-gradient(140deg,rgba(181, 133, 85, 1),rgba(140, 97, 51, 1),rgba(94, 55, 15, 1));
@@ -351,7 +348,7 @@ height: 580px;
     margin-left: 50px;
     color: rgba(182, 135, 87, 1) ;
     font-weight: bold;
-    margin-top: 75px;
+    margin-top: 70px;
 }
 .rmore-3 {
     margin-left: 50px;
@@ -451,7 +448,51 @@ height: 580px;
         margin-top: 35px;
        border: 1px solid rgba(92, 53, 12, 1);
     }
-@media (max-width:540px){
+
+    /*market*/
+    #bd-mg{
+         background-image: url('../Assets/img/accounts-header_l.jpg.png');
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         height: 500px;
+    }.start{
+        padding-top: 15%;
+        color: white;
+        font-weight: 600;
+    }.open-1{
+        color: white;
+        font-size: 20px;
+        
+    }.lorem-1{
+        color: white;
+        font-weight: lighter;
+        font-size: 15px;
+    }.core {
+        
+        
+        font-size: 30px;
+        text-align: center;
+        color: black;
+        padding-top: 50px;
+    }
+    .up {
+        margin-top: -80px;
+        margin-left: 25px;
+    }
+    .line {
+        width: 5px;
+        height: 80px;
+    }
+    
+    .tran {
+        color: rgba(182, 135, 87, 1);
+    }
+    
+    .dolor {
+        color: black;
+    }
+    @media (max-width:540px){
     .size {
         width: 35px;
       margin-left: 0px;
@@ -497,15 +538,36 @@ height: 580px;
         margin-top: 100px;
         height: 140px !important;
         width: 100%;
+    }#mmm{
+        margin-top: -100px;
+    }
+    /*market*/
+    #bd-mg{
+        background-image: url('../Assets/img/accounts-header_l.jpg.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 350px;
+   }
+    .lorem-1 {
+        color: white;
+        font-weight: lighter;
+        font-size: 10px;
+    }.start {
+        padding-top: 30%;
+        color: white;
+        font-weight: 600;
+    }.open-1 {
+        color: white;
+        font-size: 14px;
     }
 }
 @media (min-width:1500px) and (max-width:1890px){
     .csc{
-        background-color: rgba(182, 135, 87, 1);
-        border-radius: 50%;
-        width: 31%;
-        padding: 10px 10px 10px 10px;
-        margin-left: 35%;
+        
+        width: 35%;
+       
+        margin-left: 32%;
         margin-top: -15%;
     }
 }
