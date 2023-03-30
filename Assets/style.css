@@ -996,9 +996,15 @@ height: 580px;
             line-height: 17px;
         }.lat {
             width: 450px;
-            margin-left: 3.6%;
+            margin-left: 3.5%;
         }
     
+}
+@media(min-width:720px) and (max-width:956px){
+    .lat{
+        width: 450px;
+        margin-left: 71.8%;
+    }
 }
 @media (min-width:1500px) and (max-width:1890px){
     .csc{
