@@ -913,6 +913,35 @@ height: 580px;
     }.lok{
         color: white;
         font-size: 13px;
+    }.how{
+        color: rgba(145, 101, 56, 1);
+        font-weight: bolder;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }.when-1{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        color: black;
+        font-size: 13px;
+        line-height: 25px;
+    }.ca{
+        margin-top: 65px;
+        font-size: 11px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        line-height: 20px;
+    }.carousel-control-prev-icon {
+       
+        margin-left: -170px !important;
+    }
+    .carousel-control-next-icon {
+       
+        margin-left: 165px !important;
+    }#leftarrow{
+        width: 75px;
     }
     @media (max-width:540px){
     .size {
@@ -1033,6 +1062,15 @@ height: 580px;
         }.lat {
             width: 450px;
             margin-left: 3.5%;
+        }
+        /*account*/
+        .carousel-control-prev-icon {
+       
+            margin-left: -70px !important;
+        }
+        .carousel-control-next-icon {
+           
+            margin-left: 40px !important;
         }
     
 }
