@@ -961,6 +961,8 @@ height: 580px;
         color: black;
         margin-left: 20px;
         font-size: 20px;
+    }.casa{
+        color: black;
     }
     @media (max-width:540px){
     .size {
