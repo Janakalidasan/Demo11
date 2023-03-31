@@ -907,11 +907,11 @@ height: 580px;
         font-size: 12px !important;
         padding: 7px 15px 7px 15px !important;
     }.btn-7:hover{
-       background-color: transparent !important;
-        color:white !important;
+       background-color: white !important;
+        color:rgba(145, 101, 56, 1)  !important;
         font-size: 12px !important;
         padding: 7px 15px 7px 15px !important;
-        border: 1px solid white !important ;
+        
     }.lok{
         color: white;
         font-size: 13px;
