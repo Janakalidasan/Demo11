@@ -222,8 +222,10 @@
 }
 
 .laptop-group {
-    width: 594px;
-    margin-bottom: 40px;
+    width: 585px;
+    /* margin-bottom: -40px; */
+    margin-top: -535px;
+    margin-left: 53.9%;
 }#merun{
     background-image: linear-gradient(140deg,rgba(99, 63, 29, 1),rgba(142, 101, 59, 1),rgba(168, 123, 76, 1));
 height: 580px;
@@ -1109,6 +1111,11 @@ height: 580px;
         width: 100%;
     }#mmm{
         margin-top: -100px;
+    }.laptop-group {
+        width: 585px;
+        /* margin-bottom: -40px; */
+        margin-top: -10px;
+        margin-left: 3.4%;
     }
     /*market*/
     #bd-mg{
@@ -1266,5 +1273,10 @@ height: 580px;
             width: 25%;
             margin-left: 75.7%;
             margin-top: -161px;
-          }
+          }.laptop-group {
+            width: 585px;
+            /* margin-bottom: -40px; */
+            margin-top: -535px;
+            margin-left: 63.3%;
+        }
 }
