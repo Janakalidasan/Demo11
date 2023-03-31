@@ -1111,12 +1111,45 @@ height: 580px;
         font-weight: bolder;
         color:rgba(183, 135, 87, 1)  ;
       }#roc{
-        background-image: url('../Assets/img/Group 161785.png');
+        background-image: url('../Assets/img/Group 161791.png');
         background-repeat: no-repeat;
         background-position: center;
-        background-size: cover;
-        height: 1270px;
+        background-size: 85%;
+        height: 1030px;
        margin-top: -85px;
+      }.stat{
+        margin-top: 35%;
+        color:rgba(183, 135, 87, 1) ;
+
+      }.at-lo{
+        color: #000;
+        font-size: 15px;
+      }
+      #ens{
+        margin-left: 72%;
+      }
+      .stat-1{
+        margin-top: 33%;
+        color:rgba(183, 135, 87, 1) ;
+        margin-left: 20px;
+
+      }.at-lo-1{
+        color: #000;
+        font-size: 15px;
+        display: flex;
+        justify-content: end;
+      }.stat-2{
+        
+        color:rgba(183, 135, 87, 1) ;
+
+      }#cir-img{
+        background-image: url('../Assets/img/Group 161792.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 60%;
+        height: 750px;
+        
+       margin-top: 25px;
       }
     @media (max-width:540px){
     .size {
@@ -1292,12 +1325,46 @@ height: 580px;
     }#mmup {
         margin-top: -50px;
     }
+    #roc{
+        background-image: none !important;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 800px;
+       margin-top: -40px;
+      }.stat-1{
+        display: flex;
+        justify-content:center;
+        margin-top: 10px;
+      }.at-lo-1{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+      }#ens{
+        margin-left: 0%;
+      }.stat {
+        margin-top: 10%;
+        color: rgba(183, 135, 87, 1);
+        display: flex;
+        justify-content: center;
+    }.at-lo {
+        color: #000;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }.stat-2 {
+       
+        color: rgba(183, 135, 87, 1);
+        display: flex;
+        justify-content: center;
+    }
 }
 @media(min-width:720px) and (max-width:956px){
     .lat{
         width: 450px;
         margin-left: 71.8%;
-    }
+    } 
 }
 @media (min-width:1500px) and (max-width:1890px){
     .csc{
@@ -1350,4 +1417,22 @@ height: 580px;
             margin-top: -535px;
             margin-left: 63.3%;
         }
+        #roc{
+            background-image: url('../Assets/img/Group 161791.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 80%;
+            height: 1030px;
+           margin-top: -40px;
+          }
+          .stat {
+            margin-top: 27%;
+            color: rgba(183, 135, 87, 1);
+        }
+        .stat-1 {
+            margin-top: 30%;
+            color: rgba(183, 135, 87, 1);
+            margin-left: 75px;
+        }
+     
 }
