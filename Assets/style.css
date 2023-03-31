@@ -979,7 +979,7 @@ height: 580px;
       border: 1px solid white !important;
     }
     .csd:hover{
-      
+      cursor: pointer;
       transform:scale(1.1);
     }
     #bck{
