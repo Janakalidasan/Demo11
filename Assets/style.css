@@ -1043,7 +1043,7 @@ height: 580px;
     }.op-acc{
         font-weight: bolder;
         color: white;
-        font-size: 24px;
+        font-size: 23px;
     }#col-as{
         background-color: rgba(183, 135, 87, 1) !important;
       height: 300px;
@@ -1051,8 +1051,10 @@ height: 580px;
       }.a-logo{
         color: white;
         margin-top: 70px;
+        font-weight: bolder;
+        font-size: 32px;
       }.sim{
-        font-size: 13px;
+        font-size: 14px;
         color: white;
       }#sma{
         width: 25%;
@@ -1205,7 +1207,7 @@ height: 580px;
           }#sma {
             width: 60%;
             margin-left: 43.1%;
-            margin-top: 6px;
+            margin-top: -10px;
         }#col-as{
             background-color: rgba(183, 135, 87, 1) !important;
           height:410px;
@@ -1252,5 +1254,17 @@ height: 580px;
             background-color: rgba(183, 135, 87, 1) !important;
           height: 350px;
           margin-top: 100px !important;
+          }.a-logo{
+            color: white;
+            margin-top: 70px;
+            font-weight: bolder;
+            font-size: 37px;
+          }.sim{
+            font-size: 15px;
+            color: white;
+          }#sma{
+            width: 25%;
+            margin-left: 75.7%;
+            margin-top: -161px;
           }
 }
