@@ -1402,6 +1402,22 @@ height: 580px;
       } */
     /*form*/
     @media (max-width:540px){
+         
+      .left-1 input[type="submit"] {
+        margin-top: 28px;
+        width: 120px;
+        height: 32px;
+        background:transparent;
+        border: 1px solid rgba(181, 135, 87, 1) !important;
+        border: none;
+        border-radius: 2px;
+        color:rgba(181, 135, 87, 1);
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        margin-left: 50%;
+        transition: 0.1s ease;
+        cursor: pointer;
+      }
     .size {
         width: 35px;
       margin-left: 0px;
