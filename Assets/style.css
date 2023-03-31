@@ -937,7 +937,7 @@ height: 580px;
         line-height: 20px;
     }.carousel-control-prev-icon {
        
-        margin-left: -170px !important;
+        margin-left: -200px !important;
     }
     .carousel-control-next-icon {
        
@@ -1105,6 +1105,18 @@ height: 580px;
         margin-top: 3%;
         text-align: center;
     font-size: 10px;
+      }.us-abut{
+        display: flex;
+        justify-content: center;
+        font-weight: bolder;
+        color:rgba(183, 135, 87, 1)  ;
+      }#roc{
+        background-image: url('../Assets/img/Group 161785.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 1270px;
+       margin-top: -85px;
       }
     @media (max-width:540px){
     .size {
