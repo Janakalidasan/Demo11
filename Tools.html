@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="Assets/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>   
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
+    <!--Font awesome cdn-->
+    <script src="https://kit.fontawesome.com/155ad7575b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+      <!--header-->
+  <header></header>
+  <!--1-->
+
+  <div class="img">
+    <div class="rect-1">
+      <h2 class="centered-1">Instruments List</h2>
+    <p class="para-2">Logo trader with crypto equity CFDs and ETFS.</p>
+      
+    </div>
+  </div>
+<!--2-->
+<div class="container-fluid mt-5">
+    <h2 class="forexs">Forex</h2>
+   <div class="container mt-5">
+    <div class="table-responsive">
+        <table class="table" id="table">
+            <thead>
+              <tr>
+                <th scope="col" class="fis-2">Instrument symbol</th>
+                <th scope="col" class="fis-1">Instrument name</th>
+                <th scope="col" class="fis">Nominal value of the lot</th>
+                <th scope="col" class="fis">Size of one pip</th>
+                <th scope="col" class="fis">Trading hours(GMT+0)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="brn">
+                <td>AUDCAD</td>
+                <td>Austalian Dollor vs Canadian Dollor</td>
+                <td>AUD 100 000</td>
+                <td>0.01</td>
+                <td>00:00-23:59:59S</td>
+              </tr>
+              <tr class="brs">
+                <td>AUDCHF</td>
+                <td>Austalian Dollor vs Swiss Franc</td>
+                <td>AUD 100 000</td>
+                <td>0.01</td>
+                <td>00:00-23:59:59S</td>
+                
+              </tr>
+              <tr class="brn">
+                <td>AUDJPY</td>
+                <td>Austalian Dollor vs Japanese Yen</td>
+                <td>AUD 100 000</td>
+                <td>0.01</td>
+                <td>00:00-23:59:59S</td>
+              
+              </tr>
+              <tr class="brs">
+                <td>AUDNZD</td>
+                <td>Austalian Dollor vs New Zealand Dollor</td>
+                <td>AUD 100 000</td>
+                <td>0.01</td>
+                <td>00:00-23:59:59S</td>
+              </tr>
+              <tr class="brn">
+                <td>AUDUSD</td>
+                <td>Austalian Dollor vs Us Dollor</td>
+                <td>AUD 100 000</td>
+                <td>0.01</td>
+                <td>00:00-23:59:59S</td>
+                
+              </tr>
+              <tr class="brs">
+                <td>CADCHF</td>
+                <td>Canadian Dollor vs Swiss Franc</td>
+                <td>CAD 100 000</td>
+                <td>0.01</td>
+                <td>00:00-23:59:59S</td>
+              
+              </tr>
+              <tr class="brn">
+                <td>CADJPY</td>
+                <td>Canadian Dollor vs Japanese Yen</td>
+                <td>CAD 100 000</td>
+                <td>0.01</td>
+                <td>00:00-23:59:59S</td>
+              </tr>
+              <tr class="brs">
+                <td>CHFJPY</td>
+                <td>Swiss Franc vs  Japanese Yen</td>
+                <td>CHF 100 000</td>
+                <td>0.01</td>
+                <td>00:00-23:59:59S</td>
+                
+              </tr>
+              <tr class="brn">
+                <td>EURAUD</td>
+                <td>Euro vs Austalian Dollor</td>
+                <td>EUR 100 000</td>
+                <td>0.01</td>
+                <td>00:00-23:59:59S</td>
+              
+              </tr>
+              <tr class="brs">
+                <td>EURCAD</td>
+                <td>Euro vs Canadian Dollor</td>
+                <td>EUR 100 000</td>
+                <td>0.01</td>
+                <td>00:00-23:59:59S</td>
+              </tr>
+              <tr class="brn">
+                <td>EURCHF</td>
+                <td>Euro vs Swiss Franc</td>
+                <td>EUR 100 000</td>
+                <td>0.01</td>
+                <td>00:00-23:59:59S</td>
+                
+              </tr>
+              <tr class="brs">
+                <td>EURGBP</td>
+                <td>Euro vs British Pounds</td>
+                <td>EUR 100 000</td>
+                <td>0.01</td>
+                <td>00:00-23:59:59S</td>
+              
+              </tr>
+              <tr class="brn">
+                <td>EURJPY</td>
+                <td>Euro vs Japanese Dollor</td>
+                <td>EUR 100 000</td>
+                <td>0.01</td>
+                <td>00:00-23:59:59S</td>
+              </tr>
+              <tr class="brs">
+                <td>EURNOK</td>
+                <td>Euro vs Norwegian Krone</td>
+                <td>EUR 100 000</td>
+                <td>0.01</td>
+                <td>00:00-23:59:59S</td>
+                
+              </tr>
+              <tr class="brn">
+                <td>EURNZD</td>
+                <td>Euro vs New Zealand Dollor</td>
+                <td>EUR 100 000</td>
+                <td>0.01</td>
+                <td>00:00-23:59:59S</td>
+              
+              </tr>
+            </tbody>
+          </table>
+    </div>
+   </div>
+</div>
+<!--3-->
+<div class="container-fluid mt-5">
+    <h2 class="forexs">Indices</h2>
+  <div class="container py-5">
+    <div class="table-responsive">
+        <table class="table" id="table">
+            <thead>
+              <tr>
+                <th scope="col" class="fis-2">Instrument symbol</th>
+                <th scope="col" class="fis-1">Instrument name</th>
+                <th scope="col" class="fis">Nominal value of the lot</th>
+                <th scope="col" class="fis">Size of one pip</th>
+                <th scope="col" class="fis">Trading hours(GMT+0)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="brn">
+                <td>AUS200</td>
+                <td>ASX 200</td>
+                <td>Instrument level* USD 25</td>
+                <td>0.01</td>
+                <td>00:05-06:30. 07:15-21:00</td>
+              </tr>
+              <tr class="brs">
+                <td>BRAIND</td>
+                <td>IBrX 50</td>
+                <td>Instrument level* USD 2</td>
+                <td>0.01</td>
+                <td>0:12:06-20:55</td>
+                
+              </tr>
+             
+            </tbody>
+          </table>
+    </div>
+  </div>
+</div>
+<!--4-->
+<div class="container-fluid mt-5">
+    <h2 class="forexs">Spot Indices</h2>
+  <div class="container py-5">
+    <div class="table-responsive">
+        <table class="table" id="table">
+            <thead>
+              <tr>
+                <th scope="col" class="fis-2">Instrument symbol</th>
+                <th scope="col" class="fis-1">Instrument name</th>
+                <th scope="col" class="fis">Nominal value of the lot</th>
+                <th scope="col" class="fis">Size of one pip</th>
+                <th scope="col" class="fis">Trading hours(GMT+0)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="brn">
+                <td>AUS200.spot</td>
+                <td>ASX 200/spot</td>
+                <td>Instrument level* USD 25</td>
+                <td>0.01</td>
+                <td>00:00-06:30, 07:10-21:00.23:50-00:00</td>
+              </tr>
+              <tr class="brs">
+                <td>CHNIND.spot</td>
+                <td>FTSE china A50/spot</td>
+                <td>Instrument level* USD 10</td>
+                <td>0.01</td>
+                <td>01:00-08:30,09:00-20:45</td>
+                
+              </tr>
+             
+            </tbody>
+          </table>
+    </div>
+  </div>
+</div>
+<!--5-->
+<div class="container-fluid mt-5">
+    <h2 class="forexs">Spot Commodities</h2>
+   <div class="container mt-5">
+    <div class="table-responsive">
+        <table class="table" id="table">
+            <thead>
+              <tr>
+                <th scope="col" class="fis-2">Instrument symbol</th>
+                <th scope="col" class="fis-1">Instrument name</th>
+                <th scope="col" class="fis">Nominal value of the lot</th>
+                <th scope="col" class="fis">Size of one pip</th>
+                <th scope="col" class="fis">Trading hours(GMT+0)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="brn">
+                <td>BRENT.spot</td>
+                <td>UK Oil/spot</td>
+                <td>Instrument level*USD 1000</td>
+                <td>0.01</td>
+                <td>00:00-21:00</td>
+              </tr>
+              <tr class="brs">
+                <td>NGAS.spot</td>
+                <td>Natural Gas/spot</td>
+                <td>Instrument level*USD 30000</td>
+                <td>0.01</td>
+                <td>22:00-00:00, 00:00-21:00</td>
+                
+              </tr>
+              <tr class="brn">
+                <td>WTI.spot</td>
+                <td>US Oil/spot</td>
+                <td>Instrument level*USD 1000</td>
+                <td>0.01</td>
+                <td>22:00-00:00, 00:00-21:00</td>
+              
+              </tr>
+             
+            </tbody>
+          </table>
+    </div>
+   </div>
+</div>
+<!--6-->
+<div class="container-fluid mt-5">
+    <h2 class="forexs">Commodities</h2>
+   <div class="container mt-5">
+    <div class="table-responsive">
+        <table class="table" id="table">
+            <thead>
+              <tr>
+                <th scope="col" class="fis-2">Instrument symbol</th>
+                <th scope="col" class="fis-1">Instrument name</th>
+                <th scope="col" class="fis">Nominal value of the lot</th>
+                <th scope="col" class="fis">Size of one pip</th>
+                <th scope="col" class="fis">Trading hours(GMT+0)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="brn">
+                <td>BRENT</td>
+                <td>UK Oil</td>
+                <td>Instrument level*USD 1000</td>
+                <td>0.01</td>
+                <td>00:05-21:00</td>
+              </tr>
+              <tr class="brs">
+                <td>BUND</td>
+                <td>10-year German Bond</td>
+                <td>Instrument level*USD 1000</td>
+                <td>0.01</td>
+                <td>06:05-20:00</td>
+                
+              </tr>
+              <tr class="brn">
+                <td>COCOA</td>
+                <td>Cocoa</td>
+                <td>Instrument level*USD 100</td>
+                <td>0.01</td>
+                <td>08:45-17:30</td>
+              
+              </tr>
+             
+            </tbody>
+          </table>
+    </div>
+   </div>
+</div>
+<!--7-->
+<div class="container-fluid mt-5">
+    <h2 class="forexs">Metals</h2>
+   <div class="container mt-5">
+    <div class="table-responsive">
+        <table class="table" id="table">
+            <thead>
+              <tr>
+                <th scope="col" class="fis-2">Instrument symbol</th>
+                <th scope="col" class="fis-1">Instrument name</th>
+                <th scope="col" class="fis">Nominal value of the lot</th>
+                <th scope="col" class="fis">Size of one pip</th>
+                <th scope="col" class="fis">Trading hours(GMT+0)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="brn">
+                <td>ALUMINIUM</td>
+                <td>Aluminium</td>
+                <td>Instrument level*USD 50</td>
+                <td>0.01</td>
+                <td>06:30-17:30</td>
+              </tr>
+              <tr class="brs">
+                <td>COPPER</td>
+                <td>Copper</td>
+                <td>Instrument level*USD 30</td>
+                <td>0.01</td>
+                <td>06:30-17:30</td>
+                
+              </tr>
+              <tr class="brn">
+                <td>XAGUSD</td>
+                <td>Silver troy ounce</td>
+                <td>Instrument level*USD 5000</td>
+                <td>0.01</td>
+                <td>22:00-00:00, 00:00-21:00</td>
+              
+              </tr>
+             
+            </tbody>
+          </table>
+    </div>
+   </div>
+</div>
+<!--8-->
+<div class="container-fluid mt-5">
+    <h2 class="forexs">Cryptocurrencies</h2>
+  <div class="container py-5">
+    <div class="table-responsive">
+        <table class="table" id="table">
+            <thead>
+              <tr>
+                <th scope="col" class="fis-2">Instrument symbol</th>
+                <th scope="col" class="fis-1">Instrument name</th>
+                <th scope="col" class="fis">Nominal value of the lot</th>
+                <th scope="col" class="fis">Size of one pip</th>
+                <th scope="col" class="fis">Trading hours(GMT+0)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="brn">
+                <td>ADAUSD</td>
+                <td>Cardano vs US Dollor</td>
+                <td>10000 ADA</td>
+                <td>0.01</td>
+                <td>00:00-23:59</td>
+              </tr>
+              <tr class="brs">
+                <td>AVEUSD</td>
+                <td>Aave vs US Dollor</td>
+                <td>10 AVE</td>
+                <td>0.01</td>
+                <td>00:00-23:59</td>
+                
+              </tr>
+             
+            </tbody>
+          </table>
+    </div>
+  </div>
+</div>
+   <!--footer-->
+ <footer></footer>
+ <!---->
+  <script src="./Assets/js/script.js"></script>
+  <script>
+    $(document).ready(function () {
+      setTimeout(function () {
+        $("#tool").addClass("nav-link-active");
+      }, 500);
+    })
+    
+  </script>
+</body>
+</html>

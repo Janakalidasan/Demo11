@@ -1331,7 +1331,77 @@ height: 580px;
         transition: 0.1s ease;
       }
       
-      
+      /*tools*/
+      .rect-1 {
+        background-image: url('../Assets/img/Rectangle 1663.png');
+        height: 377px;
+        width: 100%;
+        margin-top: 60px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .centered-1 {
+    text-align: center;
+        display: flex;
+        justify-content: center;
+      padding-top: 10%;
+        color: white;
+        font-weight: bolder;
+        font-size: 50px;
+    }
+    
+    .para-2 {
+       text-align: center;
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-size: 14px;
+    }.forexs{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        color:rgba(181, 135, 87, 1) ;
+        font-weight: bolder;
+    }#table thead tr .fis{
+        font-weight: normal !important;
+        color: #000;
+        font-size: 13px;
+        text-align: center;
+    }#table thead tr th{
+        font-weight: normal !important;
+        color: #000;
+        font-size: 13px;
+        background-color: rgba(181, 135, 87, 1);
+        border: 2px solid rgb(184, 182, 182);
+    }#table thead tr  .fis-2{
+        font-weight: normal !important;
+        color: #000;
+        font-size: 13px;
+        background-color: transparent !important;
+        border: 2px solid rgb(202, 196, 196);
+        box-shadow: 0px 0px 11px -4px black;
+        text-align: center;
+    }#table tbody .brs td{
+        background-color:rgba(181, 135, 87, 1) !important ;
+        font-weight: 600;
+        color: #000;
+        font-size: 14px;
+        border: 2px solid rgb(184, 182, 182);
+    } #table tbody .brn td{
+color: #000;
+font-size: 14px;
+border: 2px solid rgb(184, 182, 182);
+    }
+    #table thead tr .fis-1{
+        font-weight: normal !important;
+        color: #000;
+        text-align: center;
+        font-size: 13px;
+    }
+    #table tbody tr td{
+        border: 2px solid white;
+    } 
     /*form*/
     @media (max-width:540px){
          
