@@ -1384,7 +1384,7 @@ height: 580px;
         text-align: center;
     }#table tbody .brs td{
         background-color:rgba(181, 135, 87, 1) !important ;
-        font-weight: 600;
+        font-weight: 500;
         color: #000;
         font-size: 14px;
         border: 2px solid rgb(184, 182, 182);
