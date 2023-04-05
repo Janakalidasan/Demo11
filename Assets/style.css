@@ -409,6 +409,7 @@ height: 580px;
     .px{
         background-color: transparent !important;
        border: 1px solid white !important;
+       max-width: 300px;max-height: 120px;
     }#window{
         height: 100px;
         margin-top: 10px;
@@ -1449,6 +1450,12 @@ border: 2px solid rgb(184, 182, 182);
     } 
     /*form*/
     @media (max-width:540px){
+      .px{
+        max-width: 400px;max-height: 120px;
+      }
+        #lap-trade {
+            width: 100%;
+        }
         .vs {
             color: white;
             margin-left: 0px;
