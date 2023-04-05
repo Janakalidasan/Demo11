@@ -498,10 +498,15 @@ height: 580px;
     }
     .vs{
         color: white;
+        margin-left: 48px;
+        font-weight: normal;
+        font-size: 13px;
     }
     tbody tr td {
         color: white;
-        text-align: center;
+        text-align: start;
+        padding-top: 20px !important;
+        font-size: 14px;
     
     }
     
@@ -511,10 +516,12 @@ height: 580px;
     
     tbody tr th {
         color: white;
+        font-weight: normal;
     }
     
     thead tr th {
         color: white;
+        font-weight: normal !important;
     }
     
     .tab {
@@ -525,7 +532,7 @@ height: 580px;
         margin-top: 80px;
     }
     .minor {
-        margin-left: 100px;
+        margin-left: 140px;
         margin-top: -35px;
         color: white;
     }.choos{
@@ -1407,7 +1414,12 @@ border: 2px solid rgb(184, 182, 182);
     } 
     /*form*/
     @media (max-width:540px){
-         
+        .vs {
+            color: white;
+            margin-left: 0px;
+            font-weight: normal;
+            font-size: 12px;
+        }
       .left-1 input[type="submit"] {
         margin-top: 28px;
         width: 120px;
