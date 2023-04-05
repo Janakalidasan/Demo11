@@ -1391,7 +1391,7 @@ height: 580px;
     text-align: center;
         display: flex;
         justify-content: center;
-      padding-top: 25%;
+      padding-top: 10%;
         color: white;
         font-weight: bolder;
         font-size: 50px;
@@ -1452,6 +1452,16 @@ text-align: center;
     } 
     /*form*/
     @media (max-width:540px){
+        .centered-1 {
+            text-align: center;
+                display: flex;
+                justify-content: center;
+              padding-top: 25%;
+                color: white;
+                font-weight: bolder;
+                font-size: 50px;
+            }
+            
       .px{
         max-width: 400px;max-height: 120px;
       }
