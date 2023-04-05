@@ -615,6 +615,10 @@ height: 580px;
         color: rgba(182, 135, 87, 1);
     }
     /*home*/
+    .wids{
+        margin-left: 27px;
+        margin-top: -403px;
+    }
     .bg {
         background-image: url('../Assets/img/image 13.png');
         height: 550px !important;
