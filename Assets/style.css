@@ -81,7 +81,7 @@
 }
 
 .navbar-bg2 {
-    background-color: grey;
+    background-color: white;
     transition: all .2s ease-in-out;
     animation: smoothScroll 1s forwards;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
@@ -1495,12 +1495,12 @@ text-align: center;
     }
     .navbar-bg {
         min-height: 55px !important;
-        background-color:grey;
+        background-color:white;
         box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     }
     
     .navbar-bg2 {
-        background-color: grey;
+        background-color: white;
         transition: all .2s ease-in-out;
         animation: smoothScroll 1s forwards;
         box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
@@ -1858,4 +1858,8 @@ text-align: center;
             background-image: linear-gradient(90deg,rgba(130, 87, 43, 1),rgba(171, 125, 76, 1),rgba(129, 86, 43, 1)) !important;
         height: 500px !important;
         }
+}
+.navbar-light .navbar-toggler {
+    color:rgba(171, 125, 76, 1) !important ;
+    border-color: rgba(171, 125, 76, 1) !important;
 }
