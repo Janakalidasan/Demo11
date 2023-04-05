@@ -926,8 +926,7 @@ height: 580px;
         justify-content: center;
         text-align: center;
     }.when-1{
-        display: flex;
-        justify-content: center;
+        
         text-align: center;
         color: black;
         font-size: 13px;
