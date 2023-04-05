@@ -1391,7 +1391,7 @@ height: 580px;
     text-align: center;
         display: flex;
         justify-content: center;
-      padding-top: 10%;
+      padding-top: 25%;
         color: white;
         font-weight: bolder;
         font-size: 50px;
@@ -1651,7 +1651,7 @@ text-align: center;
         width: 100%;
         margin-top: 65px !important;
     }#mmup {
-        margin-top: -50px;
+        margin-top: -35px;
     }
     #roc{
         background-image: none !important;
