@@ -118,6 +118,13 @@
 
     margin-left: 5px;
 }/*platform*/
+.on-trad{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: bolder;
+    color:rgba(182, 135, 87, 1)
+}
 .rect {
     background-image: url('../Assets/img/Rectangle 166.png');
     height: 377px;
@@ -358,7 +365,7 @@ height: 580px;
     font-weight: bold;
     margin-top: 50px;
 }#lap-trade{
-    width: 95%;
+    width: 60%;
 }#pen{
     border-left: 3px solid white;
 }#pen-2{
@@ -393,13 +400,41 @@ height: 580px;
 }
     #merun-1{
         background-image: linear-gradient(140deg,rgba(99, 63, 29, 1),rgba(142, 101, 59, 1),rgba(168, 123, 76, 1));
-    height: 500px;
+    height: 700px;
     }.img-2 {
         position: relative;
         text-align: center;
        
     }
-    
+    .px{
+        background-color: transparent !important;
+       border: 1px solid white !important;
+    }#window{
+        height: 100px;
+        margin-top: 10px;
+    }
+    .dow{
+        font-size: 13px;
+        color: white;
+    }
+    .win{
+        font-size:20px;
+        font-weight: 500;
+        color: white;
+    }
+    #bt{
+        border-radius: 20px 20px 20px 20px ;
+        background-color:white;
+        font-weight: 500;
+        font-size: 13px;
+    }
+    #bt:hover{
+        background-color: black;
+        color: white;
+    }
+    #padding{
+        margin-top: -50px;
+    }
     .angle {
         position: relative;
         margin-top: 100px;
@@ -1698,6 +1733,10 @@ border: 2px solid rgb(184, 182, 182);
     } 
 }
 @media (min-width:1500px) and (max-width:1890px){
+    #merun-1 {
+        background-image: linear-gradient(140deg,rgba(99, 63, 29, 1),rgba(142, 101, 59, 1),rgba(168, 123, 76, 1));
+        height: 800px;
+    }
     .csc{
         
         width: 35%;
