@@ -1771,9 +1771,13 @@ text-align: center;
         margin-top: -15%;
     }.sss{
         margin-left: 50%;
-        margin-top: -20%;
+        margin-top: -22%;
 
-    }.pips {
+    }
+    .ex {
+        margin-top: 35%;
+    }
+    .pips {
         margin-left: 10%;
         margin-top: -10px;
         font-weight: bolder;
