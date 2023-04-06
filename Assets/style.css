@@ -616,8 +616,9 @@ height: 580px;
     }
     /*home*/
     .wids{
-        margin-left: 27px;
-        margin-top: -403px;
+        margin-left: 9px;
+        margin-top: 20px;
+       
     }
     .bg {
         background-image: url('../Assets/img/image 13.png');
@@ -1759,9 +1760,20 @@ text-align: center;
 
 
 @media (min-width:1500px) and (max-width:1890px){
-    #ind-wdd{
+    /* #ind-wdd{
         width: 587px !important;
         height: 404px !important;
+    } */
+    .wids {
+        margin-left: 60px;
+        margin-top: 20px;
+    }
+    #widsaa{
+        background-image: url('../Assets/img/Group 161830 1.png') !important;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 86% !important;
+        height: 463px !important;
     }
     #merun-1 {
         background-image: linear-gradient(140deg,rgba(99, 63, 29, 1),rgba(142, 101, 59, 1),rgba(168, 123, 76, 1));
@@ -1879,6 +1891,17 @@ text-align: center;
     border-color: rgba(171, 125, 76, 1) !important;
 }
 @media (min-width:1900px){
+    #widsaa{
+        background-image: url('../Assets/img/Group 161830 1.png') !important;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 86% !important;
+        height: 450px !important;
+    }
+    .wids {
+        margin-left: 58px;
+        margin-top: 18px;
+    }
     .lat {
         width: 450px;
         margin-left: 76.8%;
@@ -1973,7 +1996,14 @@ text-align: center;
    
     
 }
-#ind-wdd{
-    width: 587px ;
-    height: 404px ;
+/* #ind-wdd{
+    width: 587px  !important;
+    height: 404px  !important;
+} */
+#widsaa{
+    background-image: url('../Assets/img/Group 161830 1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 450px ;
 }
